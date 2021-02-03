@@ -1,0 +1,12 @@
+#question {
+    font-size:32px;
+    font:bold;
+    
+}
+.choise.con {
+    border: saddlebrown;
+    display:flex;
+    width: max-content;
+    justify-items: center;
+
+}
