@@ -9,6 +9,7 @@
     <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
 
 </head>
+<script src="game.js"></script>
 
 <body class="bg-blue-200 w-5/8 select-none">
     <div class="flex justify-center items-center h-screen">
@@ -16,20 +17,20 @@
             <h2 id="question">what is the answer to this question?</h2>
             <div class="flex m-2 cursor-pointer border-2 hover:shadow-lg">
                 <p class="w-12 h-12 pt-2 text-center bg-blue-500 text-gray-100">A</p>
-                <p class="h-12 w-full pl-2 pt-2 bg-gray-100">answer 1</p>
+                <p id="choice_1" class="choice_text">answer 1</p>
             </div>
             <div class="flex m-2 cursor-pointer border-2 hover:shadow-lg">
                 <p class="w-12 h-12 pt-2 text-center bg-blue-500 text-gray-100">B</p>
-                <p class="h-12 w-full pl-2 pt-2 bg-gray-100">answer 2</p>
+                <p id="choice_2" class="choice_text">answer 2</p>
             </div>
             <div class="flex m-2 cursor-pointer border-2 hover:shadow-lg">
                 <p class="w-12 h-12 pt-2 text-center bg-blue-500 text-gray-100">C</p>
-                <p class="h-12 w-full pl-2 pt-2 bg-gray-100">answer 3</p>
+                <p id="choice_3" class="choice_text">answer 3</p>
             </div>
             <div class="flex m-2 cursor-pointer border-2 hover:shadow-lg">
                 <p class="w-12 h-12 pt-2 text-center bg-blue-500 text-gray-100">
                     D</p>
-                <p class="h-12 w-full pl-2 pt-2 bg-gray-100">answer 4</p>
+                <p id="choice_4" class="choice_text">answer 4</p>
             </div>
         </div>
     </div>
