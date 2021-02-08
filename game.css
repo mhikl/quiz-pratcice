@@ -1,8 +1,13 @@
 .choice_text{
     height: 48px;
-    width: 200px;
-    max-width: 400px;
+    width: 100%;
     padding: 4px;
     background-color:whitesmoke;
     padding-top: 12px;
+}
+.correct{
+    background-color:rgb(28, 211, 28);
+}
+.incorrect{
+background-color: rgb(235, 52, 52);
 }
