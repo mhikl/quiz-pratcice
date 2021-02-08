@@ -11,3 +11,9 @@
 .incorrect{
 background-color: rgb(235, 52, 52);
 }
+
+#hud{
+   display: flex;
+   justify-content: space-between;
+   text-decoration-color: rgb(47, 47, 240);
+}

@@ -14,7 +14,28 @@
 <body class="bg-blue-200 w-5/8 select-none">
     <div class="flex justify-center items-center h-screen">
         <div id="game" class="flex-col justify-center items-center">
-            <h2 id="question">what is the answer to this question?</h2>
+            <div class="text-blue-600 text-center text-xl uppercase" id="hud">
+                <div id="hud_item">
+                    <p class="hud_prefix">
+                        question
+                    </p>
+                    <h1 class="hud_main_text" id="questionCounter">
+
+                    </h1>
+                </div>
+
+                <div id="hud_item">
+                    <p class="hud_prefix">
+                        score
+                    </p>
+                    <h1 id="score" class="hud_main_text">
+
+                    </h1>
+                </div>
+            </div>
+
+
+            <h2 class="text-2xl text-blue-800 mt-2" id="question">what is the answer to this question?</h2>
             <div class="flex m-2 cursor-pointer border-2 hover:shadow-lg">
                 <p class="w-12 h-12 pt-2 text-center bg-blue-500 text-gray-100">A</p>
                 <p class="choice_text" data-number="1">answer 1</p>
