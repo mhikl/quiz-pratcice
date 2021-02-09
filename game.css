@@ -17,3 +17,15 @@ background-color: rgb(235, 52, 52);
    justify-content: space-between;
    text-decoration-color: rgb(47, 47, 240);
 }
+
+#progresBar{
+border-color: rgb(23, 23, 168);
+border:solid;
+height: 25px;
+}
+
+#progresBarFull{
+height: 19px;
+background-color: rgb(23, 23, 168);
+width: 0%;
+}
