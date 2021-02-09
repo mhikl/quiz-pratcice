@@ -1,1 +1,1 @@
-# quiz-pratcice
+# quiz-practice
